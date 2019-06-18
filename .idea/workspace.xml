@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4de828d-8842-47b5-8ba7-70815261a425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/040-exercise/exercise-2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/040-exercise/exercise-3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-exercise/exercise-4-mutex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-exercise/exercise-5-atomic.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,15 +29,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/025-method-sets/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/036-go-statement-channel/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -50,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/037-race-condition/race.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -117,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/040-exercise/exercise-3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="315">
+              <caret line="22" column="24" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
               </folding>
@@ -130,12 +121,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/034-wait-group/main.go">
+        <entry file="file://$PROJECT_DIR$/040-exercise/exercise-4-mutex.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="359">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
-                <element signature="e#14#39#0" expanded="true" />
+                <element signature="e#16#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/040-exercise/exercise-5-atomic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hello.go" />
-        <option value="$PROJECT_DIR$/001-hello-world/main.go" />
         <option value="$PROJECT_DIR$/008-hello-world/anything.go" />
         <option value="$PROJECT_DIR$/010-short-declaration-operator/main.go" />
         <option value="$PROJECT_DIR$/010-array-make-and-map/main.go" />
@@ -208,6 +209,8 @@
         <option value="$PROJECT_DIR$/040-exercise/exercise-1.go" />
         <option value="$PROJECT_DIR$/040-exercise/exercise-2.go" />
         <option value="$PROJECT_DIR$/040-exercise/exercise-3.go" />
+        <option value="$PROJECT_DIR$/040-exercise/exercise-4-mutex.go" />
+        <option value="$PROJECT_DIR$/040-exercise/exercise-5-atomic.go" />
       </list>
     </option>
   </component>
@@ -282,7 +285,7 @@
     <frame x="1297" y="176" width="1336" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24188563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24188563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,7 +298,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28777924" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28777924" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -662,7 +665,7 @@
     <entry file="file://$PROJECT_DIR$/037-race-condition/race.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
@@ -680,10 +683,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/040-exercise/exercise-3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="315">
+          <caret line="22" column="24" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/040-exercise/exercise-4-mutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/040-exercise/exercise-5-atomic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
